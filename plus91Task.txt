@@ -1,0 +1,45 @@
+public class ChefShopping
+{
+   public static void main(String args[])
+{
+  int item [] = {10,8,9,5,4,2};
+  int k = 2;
+int chef[]=new int[item.length()];
+int son[]=new int[item.length()];
+int b[]=
+int j=0;
+int x=0;
+for(int i = 0; i<item.length()-1; i++)
+{
+   if(item[i]>4)
+{ 
+   a[j]=item[i];
+}
+else
+{
+  son[x]=item[i];
+}
+
+int chefWight=0;
+for(int i=0; i<=item.length)
+{
+  chefWight=chefWight + a[j];
+}
+
+System.out.println("weight with chef is:" + chefWight);
+
+int sonWeight=0;
+
+for(int i=0; i<=item.length)
+{
+  sonWeight=sonWeight + son[x];
+}
+
+System.out.println("weight with son is:" + sonWeight);
+ 
+int weightDiff = chefWight - sonWeight;
+  
+
+System.out.println("Weight difference beetween chef and his son is:" + weightDiff);
+
+}
